@@ -2,11 +2,11 @@
 body{
     
     font-family: Arial, Helvetica, sans-serif;
-     background-image: linear-gradient(to left,#07B52A,#2BE043,#4AF723)
+     background-color: #62E639;
     }
     
-div{
-    margin-top: 150px;
+.items{
+    margin-top: 170px;
     position: absolute;
     background-color: #0cb80c;
     top:50%;
@@ -46,6 +46,12 @@ input:focus{
 }
 
 img{
-    display: block;
-    margin: auto;
+    display: flex;   
+    
+}
+.image{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
